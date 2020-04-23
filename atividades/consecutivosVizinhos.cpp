@@ -1,4 +1,4 @@
-#include <stdiu.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 main(){
@@ -22,7 +22,6 @@ main(){
     }else{
         printf("Nao foi digitiado consecutivos vizinhos\n");
     }
-
-    system("pause");
+   system("pause");
 }
     
