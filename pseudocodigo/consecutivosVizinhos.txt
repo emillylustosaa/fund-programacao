@@ -1,0 +1,22 @@
+
+início
+ int:n ,x ,a ,tem ,s1 ,s2;
+ tem <- 0;
+ leia(n);
+ para i de 1 até n faça
+   leia (x);
+   se (i>1) então
+      se (tem <- 0 e absoluto (a-x) <-1) então
+        tem <- 1;
+        s1 <- a;
+        s2 <- x;
+      fimse;  
+   fimse;
+   a <- x;
+ fimPara;
+ se (tem <- 1) então
+   escreva(s1 e s2 são consecutivos e vizinhos na digitação);
+ senão
+   escreva(Não foi digitado consecutivos vizinhos);
+ fimse;
+fim.
